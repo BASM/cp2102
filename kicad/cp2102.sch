@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "11 oct 2013"
+Date "12 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -186,25 +186,21 @@ F 3 "" H 8750 3450 60  0000 C CNN
 	1    8750 3450
 	1    0    0    -1  
 $EndComp
-Text Label 8150 3200 0    60   ~ 0
+Text Label 8150 3300 0    60   ~ 0
 VBUS
 Wire Wire Line
-	8400 3200 8150 3200
+	7950 3200 8400 3200
 $Comp
 L GND #PWR7
 U 1 1 5256FCFC
-P 8200 3350
-F 0 "#PWR7" H 8200 3350 30  0001 C CNN
-F 1 "GND" H 8200 3280 30  0001 C CNN
-F 2 "" H 8200 3350 60  0000 C CNN
-F 3 "" H 8200 3350 60  0000 C CNN
-	1    8200 3350
+P 7950 3300
+F 0 "#PWR7" H 7950 3300 30  0001 C CNN
+F 1 "GND" H 7950 3230 30  0001 C CNN
+F 2 "" H 7950 3300 60  0000 C CNN
+F 3 "" H 7950 3300 60  0000 C CNN
+	1    7950 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8400 3300 8200 3300
-Wire Wire Line
-	8200 3300 8200 3350
 Text Label 8300 3400 0    60   ~ 0
 RX
 Wire Wire Line
@@ -342,4 +338,8 @@ Wire Wire Line
 	4650 2150 4650 2250
 Wire Wire Line
 	4650 2650 4650 2750
+Wire Wire Line
+	8150 3300 8400 3300
+Wire Wire Line
+	7950 3200 7950 3300
 $EndSCHEMATC
