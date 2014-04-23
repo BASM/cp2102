@@ -14,4 +14,4 @@ cp2102
 
  Good for NXP LPC13xx ARM programming.
 
- Stage: testing.
+ Stage: work fine.
